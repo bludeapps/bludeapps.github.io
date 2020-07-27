@@ -59,7 +59,7 @@
             } else if (input < 10000000) {
                 document.querySelector("#resp").innerHTML = `Teniendo $${inputFormat} puedes retirar un máximo de $1.000.000 de pesos aprox.`;
             } else if (input <= 43000000) {
-                document.querySelector("#resp").innerHTML = `Teniendo $${inputFormat} puedes retirar solamente $${inputFto10} pesos aprox.`;
+                document.querySelector("#resp").innerHTML = `Teniendo $${inputFormat} puedes retirar un máximo de $${inputFto10} pesos aprox.`;
             } else if (input > 43000000) {
                 document.querySelector("#resp").innerHTML = `Teniendo $${inputFormat} puedes retirar un máximo de $4.300.000 pesos aprox.`;
             }
